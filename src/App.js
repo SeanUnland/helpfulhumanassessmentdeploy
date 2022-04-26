@@ -12,7 +12,7 @@ const offCell = {
   color: "#000000",
 };
 
-const initialCells = Array.from({ length: 40 }, () => offCell);
+const initialCells = Array.from({ length: 12 }, () => offCell);
 
 function App() {
   const [currentColor, setCurrentColor] = useState("#7CFFCB");
@@ -49,7 +49,9 @@ function App() {
         <Grid currentColor={currentColor} cells={cells} setCells={setCells} />
       </div>
       <h4 className="hex-code">Hex Code of Color ⤵️</h4>
-      <p className="color-string"> {colorString}</p>
+      <div className="list-of-hex-codes">
+        <ul className="color-string"> {colorString}</ul>
+      </div>
       <div>
         <ColorAPI />
       </div>
