@@ -34,7 +34,7 @@ function App() {
   return (
     <div className="App">
       <TopNav />
-      <div className="random-color-button">
+      <div>
         <RandomColorButton
           currentColor={currentColor}
           onSetColor={setCurrentColor}

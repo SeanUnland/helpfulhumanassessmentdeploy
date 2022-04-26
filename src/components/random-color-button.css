@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap");
+
+.random-color-button {
+  height: 8vh;
+  width: 8vw;
+  margin: 4% 0 0 1%;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: bold;
+  font-family: "Source Serif Pro", serif;
+}

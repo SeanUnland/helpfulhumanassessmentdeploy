@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import "./random-color-button.css";
 
-const RandomColorButton = ({ currentColor, onSetColor }) => {
+const RandomColorButton = ({ currentColor }) => {
   const [randomColor, setRandomColor] = useState("");
 
   const handleAdd = (event) => {
@@ -12,7 +13,9 @@ const RandomColorButton = ({ currentColor, onSetColor }) => {
   };
   return (
     <div>
-      <button onClick={handleAdd}>Random Color</button>
+      <button className="random-color-button" onClick={handleAdd}>
+        Random Color
+      </button>
       <div>{randomColor}</div>
     </div>
   );
