@@ -5,6 +5,7 @@ import Grid from "./components/Grid";
 import Paging from "./components/Paging";
 import TopNav from "./components/TopNav";
 import ColorAPI from "./components/ColorAPI";
+import RandomColorButton from "./components/RandomColorButton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const offCell = {
@@ -33,6 +34,12 @@ function App() {
   return (
     <div className="App">
       <TopNav />
+      <div className="random-color-button">
+        <RandomColorButton
+          currentColor={currentColor}
+          onSetColor={setCurrentColor}
+        />
+      </div>
       <div className="color-container">
         <ColorSwatch currentColor={currentColor} onSetColor={setCurrentColor} />
 
