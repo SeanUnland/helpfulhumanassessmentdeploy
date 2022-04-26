@@ -1,0 +1,20 @@
+.color-swatch {
+  margin: 1rem;
+  padding: 0;
+  width: 10%;
+  height: 50px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 0 2% 0 15%;
+}
+
+.select-a-color {
+  margin: 0 2% 0 15%;
+  font-size: 24px;
+  padding: 0 0 2% 0;
+}
+
+.color-selector-box {
+  padding: 0 0 4% 0;
+}

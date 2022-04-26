@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap");
+
+.color-string {
+  max-width: 50%;
+  font-size: 25px;
+}
+
+.color-swatch-container {
+  display: flex;
+}
+
+.color-swatch {
+  margin: 0.5rem;
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+h4 {
+  font-family: "Source Serif Pro", serif;
+}
+
+p {
+  font-family: "Source Serif Pro", serif;
+}
+
+.color-container {
+  margin: 4% 0 4% 0;
+}
+
+.hex-code {
+  font-size: 24px;
+}
