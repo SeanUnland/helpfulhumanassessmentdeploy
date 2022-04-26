@@ -35,7 +35,7 @@ function App() {
       <TopNav />
       <div className="color-container">
         <ColorSwatch currentColor={currentColor} onSetColor={setCurrentColor} />
-        <FontAwesomeIcon icon="coffee" />
+
         <div className="color-swatch-container">
           {colorSwatch.map((color) => (
             <div
@@ -49,8 +49,9 @@ function App() {
         <Grid currentColor={currentColor} cells={cells} setCells={setCells} />
       </div>
       <h4 className="hex-code">Hex Code of Color ⤵️</h4>
+
       <div className="list-of-hex-codes">
-        <ul className="color-string"> {colorString}</ul>
+        <p className="color-string"> {colorString}</p>
       </div>
       <div>
         <ColorAPI />

@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap");
 
+.hex-code {
+  text-align: center;
+  font-size: 24px;
+  margin: 0 0 0 0;
+}
+
 .color-string {
   max-width: 50%;
   font-size: 25px;
@@ -8,8 +14,9 @@
 }
 
 .list-of-hex-codes {
-  max-width: fit-content;
+  text-align: center;
   display: flex;
+  justify-content: center;
 }
 
 .color-swatch-container {
@@ -36,8 +43,4 @@ p {
 
 .color-container {
   margin: 4% 0 4% 0;
-}
-
-.hex-code {
-  font-size: 24px;
 }

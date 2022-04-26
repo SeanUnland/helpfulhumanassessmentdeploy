@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./top-nav.css";
 import Button from "@mui/material/Button";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const TopNav = ({}) => {
   const [searchColor, setSearchColor] = useState("");
@@ -19,8 +18,6 @@ const TopNav = ({}) => {
   };
   return (
     <div className="top-nav">
-      <FontAwesomeIcon icon="fa-solid fa-mug-saucer" />
-      <i class="fa-solid fa-cabin"></i>
       <input
         className="search-bar"
         type="text"
