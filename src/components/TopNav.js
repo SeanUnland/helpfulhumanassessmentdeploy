@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./top-nav.css";
 import Button from "@mui/material/Button";
+import AccountBoxIcon from "@mui/icons-material/AccountBox";
 
 const TopNav = ({}) => {
   const [searchColor, setSearchColor] = useState("");
@@ -18,17 +19,22 @@ const TopNav = ({}) => {
   };
   return (
     <div className="top-nav">
-      <input
-        className="search-bar"
-        type="text"
-        placeholder="Search..."
-        value={searchColor}
-        onChange={handleChange}
-      ></input>
-      <div className="search-button">
-        <Button onClick={handleAdd} variant="outlined">
-          Search
-        </Button>
+      <div className="account-box-icon">
+        <AccountBoxIcon />
+      </div>
+      <div className="search-input-and-button">
+        <input
+          className="search-bar"
+          type="text"
+          placeholder="Search..."
+          value={searchColor}
+          onChange={handleChange}
+        ></input>
+        <div className="search-button">
+          <Button onClick={handleAdd} variant="outlined">
+            Search
+          </Button>
+        </div>
       </div>
     </div>
   );

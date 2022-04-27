@@ -19,3 +19,14 @@
   height: 5vh;
   margin: 1% 1% 1% 0;
 }
+
+.account-box-icon {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.search-input-and-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
