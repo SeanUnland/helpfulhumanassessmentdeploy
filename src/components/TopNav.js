@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./top-nav.css";
 import Button from "@mui/material/Button";
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
+import { textAlign } from "@mui/system";
 
 const TopNav = ({}) => {
   const [searchColor, setSearchColor] = useState("");
@@ -20,7 +21,7 @@ const TopNav = ({}) => {
   return (
     <div className="top-nav">
       <div className="account-box-icon">
-        <AccountBoxIcon />
+        <AccountBoxIcon sx={{ fontSize: 50 }} />
       </div>
       <div className="search-input-and-button">
         <input
