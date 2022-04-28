@@ -6,7 +6,6 @@ import Paging from "./components/Paging";
 import TopNav from "./components/TopNav";
 import ColorAPI from "./components/ColorAPI";
 import RandomColorButton from "./components/RandomColorButton";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const offCell = {
   on: false,

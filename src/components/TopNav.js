@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./top-nav.css";
 import Button from "@mui/material/Button";
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
-import { textAlign } from "@mui/system";
 
 const TopNav = ({}) => {
   const [searchColor, setSearchColor] = useState("");
