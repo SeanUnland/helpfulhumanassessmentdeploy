@@ -16,6 +16,7 @@ const Paging = ({}) => {
 
   const changePage = (event) => {
     const pageNumber = Number(event.target.textContent);
+    console.log(pageNumber);
     setCurrentPage(pageNumber);
   };
 
